@@ -24,6 +24,8 @@ Arcade-o-mania is a web platform built using HTML, CSS and Javascript. It relies
 The retro themed UI is built using HTML and CSS.
 The project is javascript heavy !
 
-![Minesweeper](images/mine.png)
+[![aom1.png](https://i.postimg.cc/pdT9MCht/aom1.png)](https://postimg.cc/ZWGYrrxf)
 
-![Pacman](images/pac.png)
+[![aom3.png](https://i.postimg.cc/2jv1YV63/aom3.png)](https://postimg.cc/SjSS7Qcp)
+
+[![aom4.png](https://i.postimg.cc/6QgQJXxd/aom4.png)](https://postimg.cc/hJ8nTNjj)
