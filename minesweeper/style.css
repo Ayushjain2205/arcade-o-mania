@@ -1,0 +1,93 @@
+.container {
+  margin: auto;
+  width: 550px;
+  align-content: center;
+}
+
+.grid {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #bdbdbd;
+  margin-left: 50px;
+  margin-top: 20px;
+  border: 10px solid #bdbdbd;
+  margin-bottom: 10px;
+}
+
+div {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+.valid {
+  height: 40px;
+  width: 40px;
+  border: 5px solid;
+  border-color: #f5f3eb #bab7a9 #bab7a9 #7b7b7b;
+  box-sizing: border-box;
+}
+
+.checked {
+  height: 40px;
+  width: 40px;
+  border: 2px solid;
+  background-color: #bdbdbd;
+  border-color: #9c998d;
+  box-sizing: border-box;
+}
+
+.bomb {
+  height: 40px;
+  width: 40px;
+  border: 5px solid;
+  border-color: #f5f3eb #bab7a9 #bab7a9 #7b7b7b;
+  box-sizing: border-box;
+}
+
+.one {
+  color: #e76346;
+}
+
+.two {
+  color: #4199d3;
+}
+
+.three {
+  color: #0000ff;
+}
+
+.four {
+  color: #bb41d3;
+}
+
+#result {
+  margin-top: 5px;
+  color: #e76346;
+}
+
+.game-box {
+  height: 100vh;
+  width: 100vw;
+}
+
+.bottom {
+  margin-top: 40px;
+}
+
+#back {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#new {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.rpgui-button.golden p {
+  font-size: 12px;
+}
