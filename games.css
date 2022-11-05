@@ -1,0 +1,44 @@
+.rpgui-container.framed.page {
+  height: 100vh;
+  width: 100vw;
+}
+
+.games-holder {
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 10px;
+}
+
+.game {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 54px !important;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 300px;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+p.space {
+  font-size: 18px !important;
+  margin: 10px !important;
+}
+
+.tile-image {
+  width: 390px !important;
+  height: 195px !important;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="../dist/rpgui.css" rel="stylesheet" type="text/css" />
+    <script src="../dist/rpgui.js"></script>
+    <title>Whac-a-mole</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="rpgui-content">
+      <div class="rpgui-container framed game-box">
+        <h1 class="heading">Whac-a-mole</h1>
+        <button id="back" class="rpgui-button golden" type="button">
+          <a href="../games.html"><p>Back</p></a>
+        </button>
+
+        <button
+          id="new"
+          class="rpgui-button golden"
+          onClick="window.location.reload();"
+          type="button"
+        >
+          <p>New Game</p>
+        </button>
+        <div class="game-holder">
+          <div id="game" class="rpgui-container framed-golden-2">
+            <div class="value-holder">
+              <span class="values">Your score:<span id="score">0</span></span>
+
+              <span class="values"
+                >Time Left:<span id="time-left">60</span></span
+              >
+            </div>
+
+            <div class="grid">
+              <div class="square" id="1"></div>
+              <div class="square" id="2"></div>
+              <div class="square" id="3"></div>
+              <div class="square" id="4"></div>
+              <div class="square" id="5"></div>
+              <div class="square" id="6"></div>
+              <div class="square" id="7"></div>
+              <div class="square" id="8"></div>
+              <div class="square" id="9"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

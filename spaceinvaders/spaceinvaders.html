@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="../dist/rpgui.css" rel="stylesheet" type="text/css" />
+    <script src="../dist/rpgui.js"></script>
+    <title>Space Invaders</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="rpgui-content">
+      <div class="rpgui-container framed game-box">
+        <button id="back" class="rpgui-button golden" type="button">
+          <a href="../games.html"><p>Back</p></a>
+        </button>
+
+        <button
+          id="new"
+          class="rpgui-button golden"
+          onClick="window.location.reload();"
+          type="button"
+        >
+          <p>New Game</p>
+        </button>
+        <h1 class="heading">Space invaders</h1>
+        <div class="grid"></div>
+        <h1 class="score">Score :<span class="results"></span> 0</h1>
+        <script src="script.js"></script>
+      </div>
+    </div>
+  </body>
+</html>

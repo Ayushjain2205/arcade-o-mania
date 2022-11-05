@@ -1,0 +1,57 @@
+.grid {
+  width: 456px;
+  height: 456px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  margin: auto;
+}
+
+.square {
+  height: 150px;
+  width: 150px;
+  border: solid black 1px;
+}
+
+.mole {
+  background-image: url("mole.jpg");
+  background-size: cover;
+}
+
+.game-box {
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  align-items: center;
+}
+
+.heading {
+  font-size: 72px !important;
+}
+
+#game {
+  margin: auto;
+  margin-top: 30px;
+}
+
+.game-holder {
+  width: 600px;
+  margin: auto;
+}
+
+.value-holder {
+  display: flex;
+  justify-content: space-between;
+}
+
+#back {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#new {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
